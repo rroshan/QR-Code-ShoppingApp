@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Shopper</string>
+    <string name="shop">Shop</string>
+    <string name="history">History</string>
+    <string name="quit">Quit</string>
+    <string name="scan">Scan QR Code</string>
+    <string name="hint1">Enter the number of kilograms</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="product_details">Product Details</string>
+    <string name="enter_no_of_kgs">Enter number of kilograms</string>
+    <string name="go_to_cart">Go to Cart</string>
+    <string name="purchase">Place Order</string>
+    <string name="menu_delete">Delete</string>
+    <string name="email">Settings</string>
+    <string name="hint2">Please enter your email here</string>
+    <string name="email_text">Enter your Email ID below:-</string>
+    <string name="done">Set as New Email ID</string>
+    <string name="start">Enable Mail Feature</string>
+    <string name="tip">Did you know?</string>
+    <string name="trivia">Nutritional value/100 g (3.5 oz):</string>
+    <string name="prod_details">Product Details</string>
+    <string name="email_help">Please enter your email address and enable the check box below to receive email conformation of your order.</string>
+    <string name="settings">Settings</string>
+    <string name="enter_email">Enter your new email id below:</string>
+    <string name="get_address">Please set your new delivery address below:</string>
+    <string name="address">Please enter your delivery address here</string>
+    <string name="set_address">Set as Address</string>
+    <string name="receipt">Receipt</string>
+</resources>

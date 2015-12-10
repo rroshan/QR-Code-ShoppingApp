@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/product_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/prod_details"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/product_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_details"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/product_details"
+        />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product_id"
+        android:layout_below="@+id/product_id"
+        android:layout_marginTop="31dp"
+        />
+
+    <TextView
+        android:id="@+id/price_per_kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/product_name"
+        android:layout_below="@+id/product_name"
+        android:layout_marginTop="32dp"
+        />
+
+    <ImageView
+        android:id="@+id/portrait"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/product_id"
+        android:layout_marginRight="15dp" />
+
+    <Button
+        android:id="@+id/add_to_cart"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/portrait"
+        android:layout_below="@+id/price_per_kg"
+       	android:onClick="onAddToCart"
+        android:text="@string/add_to_cart" />
+
+    <TextView
+        android:id="@+id/no_of_kgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product_details"
+        android:layout_below="@+id/add_to_cart"
+        android:layout_marginTop="15dp"
+        android:text="@string/enter_no_of_kgs"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/kgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/no_of_kgs"
+        android:layout_below="@+id/no_of_kgs"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/price_per_kg"
+        android:layout_below="@+id/kgs"
+        android:layout_marginTop="17dp"
+        android:text="@string/trivia"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/nutrients"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
+        />
+        	
+</RelativeLayout>
